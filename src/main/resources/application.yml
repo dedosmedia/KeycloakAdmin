@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: keycloak-admin
+
+
+dh:
+  keycloak:
+    serverUrl: http://localhost:8085
+    realm: parcial
+    clientId: keycloak-admin
+    clientSecret: bKypCK0vSd3ZIcwSsmQFvWIT5CGKHyuz
+
+
+
